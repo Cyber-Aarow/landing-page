@@ -14,3 +14,18 @@
 .bottom {
     display: flex;
 }
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
