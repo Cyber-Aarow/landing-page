@@ -113,3 +113,20 @@ h2 {
     text-align: right;
     font-size: 15px;
 }
+
+/*Blue Rectangle Section*/
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+.blue-rectangle {
+    display: flex;
+    background-color: #3882f6;
+    width: 500px;
+    height: 100px;
+    align-self: center;
+    justify-self: center;
+}
