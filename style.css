@@ -2,7 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Hero';
 }
 
 ul {
@@ -16,7 +16,6 @@ button {
     color: white;
     padding: 5px 20px;
     border-radius: 5px;
-    border: none;
     font-weight: bold;
 }
 
@@ -84,6 +83,7 @@ h1 {
 
 .header-button {
     align-self: flex-start;
+    border: none; 
 }
 
 /* Picture Section */
@@ -102,6 +102,7 @@ h2 {
 }
 
 .quote {
+    font-family: 'Quote';
     font-style: italic;
     font-weight: 100;
     text-align: center;
@@ -124,7 +125,7 @@ h2 {
 .blue-rectangle {
     display: flex;
     background-color: #3882f6;
-    width: 500px;
+    width: 750px;
     height: 100px;
     align-self: center;
     justify-self: center;
@@ -137,5 +138,7 @@ h3, .br-words{
 }
 
 .br-button{
-    outline:#f9faf8;
+    border-width: 2px;
+    border-color: #f9faf8;
+    border-style: solid;
 }
