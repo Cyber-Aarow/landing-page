@@ -117,10 +117,9 @@ h2 {
 /*Blue Rectangle Section*/
 .third{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: auto;
+    flex-flow: column;
+    height: 100%;
+    flex: auto;
 }
 .blue-rectangle {
     display: flex;
@@ -129,4 +128,14 @@ h2 {
     height: 100px;
     align-self: center;
     justify-self: center;
+    margin: 10px;
+}
+
+h3, .br-words{
+    color: white;
+    display: flex;
+}
+
+.br-button{
+    outline:#f9faf8;
 }
