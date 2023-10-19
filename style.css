@@ -99,6 +99,24 @@ h2 {
     color: #1f2937;
 }
 
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border:#3882f6;
+    border-style:solid;
+    border-radius: 5px;
+    margin: 0 auto 0 auto;
+}
+
+.image-text {
+    text-align:center;
+}
+
 /* Quote Section */
 .second {
     background-color: #e5e7eb;
