@@ -3,6 +3,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Hero';
+    margin: 0;
+    height: 100%;
+    flex: auto;
 }
 
 ul {
@@ -38,6 +41,7 @@ button {
     bottom: 0;
     left: 0;
     width: 100%;
+    margin: 0;
 }
 
 /* Within Header */
@@ -119,26 +123,46 @@ h2 {
 .third{
     display: flex;
     flex-flow: column;
-    height: 100%;
-    flex: auto;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
 }
 .blue-rectangle {
     display: flex;
     background-color: #3882f6;
     width: 750px;
     height: 100px;
-    align-self: center;
-    justify-self: center;
     margin: 10px;
+    border-radius: 5px;
+}
+
+.br-left{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h3, .br-words{
     color: white;
     display: flex;
+    text-align: left;
+    margin: 0;
 }
 
+.br-right{
+    width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .br-button{
+    text-align: center;
     border-width: 2px;
     border-color: #f9faf8;
     border-style: solid;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
 }
