@@ -37,7 +37,6 @@ button {
 .footer {
     text-align: center;
     padding: 10px;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -91,6 +90,13 @@ h1 {
     border: none; 
 }
 
+/*Outside of Header and Footer */
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
 /* Picture Section */
 h2 {
     text-align: center;
@@ -102,6 +108,7 @@ h2 {
 .images {
     display: flex;
     justify-content: space-between;
+    padding: 75px;
 }
 
 .square {
@@ -142,7 +149,7 @@ h2 {
 .third{
     display: flex;
     flex-flow: column;
-    flex: 1 1 auto;
+    flex: auto;
     justify-content: center;
     align-items: center;
 }
@@ -156,10 +163,11 @@ h2 {
 }
 
 .br-left{
-    width: 450px;
+    width: 475px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-left: 75px;
+    align-items: left;
     justify-content: center;
 }
 
